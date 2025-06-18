@@ -2,7 +2,7 @@
 
 \usepackage{url}
 \usepackage{hyperref}
-
+\usepackage{enumerate}
 % We're working with A4, which is 21cm by 29.7
 \setlength{\paperwidth}{210mm}
 \setlength{\paperheight}{297mm}
@@ -34,7 +34,7 @@
 \renewcommand{\headrulewidth}{0pt}
 
 
-
+\everymath{\displaystyle}
 \makeindex
 
 \usepackage{titlesec}
@@ -75,12 +75,46 @@
 % \input{./capitols/introduccio/introduccio}
 \chapter{Introducció}
 
-Finalment funciona!!!
-Cita bibliogràfica: \cite{TP}
+\textbf{Finalment funciona}!!!
+\textit{Cita \textbf{bibliogràfica:}} \cite{TP}
+
+\begin{center}
+  Text centrat
+\end{center}
+\section{1a seccio}
+
+\subsection{dfsdsfsd}
+
+Text normal \ref{itemOne}
+
+\begin{enumerate}[I)]
+ \item 1r
+ \begin{enumerate}[(1)]
+  \item sub uitem 1
+  \item jksdfhsjhdf
+ \end{enumerate}
+ \item extra
+ \item\label{itemOne} 3rs
+ \item 2n
+\end{enumerate}
+
+$\sqrt{\frac{3x^2}{x^2 +1}}$
+
+0,5 0.5
+
+\vspace*{4.3truecm}
+
+
+\begin{tabular}{|c|c|c|l|r|}
+ \hline 1a columuna & 2a collllllllllllumna &  & & \\ \hline
+ 1a columuna & 2a collllllllllllumna & ptatat & cucucdrillllllll & 5 \\ \hline
+
+\end{tabular}
+
 
 % \input{./capitols/objectius/objectius}
 \chapter{Objectius}
-
+vull aprendre
 %
 % \input{./capitols/introduccio/introduccio}
 %

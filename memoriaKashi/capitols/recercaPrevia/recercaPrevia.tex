@@ -3,7 +3,7 @@
 \section{Què és la qualitat de l’aigua?}
 La qualitat de l'aigua es un terme que es refereix a les caracteristicas fisicas, quimicas y bilogicas de l'aigua. Per determinar-la, s'analitzan alguns paràmetres.
 
-Segons Wikipedia \cite{WikiAgua}, s'entén la qualitat de l'aigua com "característiques químiques, físiques, biològiques i radiològiques de l'aigua", en relació amb necessitats humanes.
+Segons Wikipedia \cite{WikiAgua}, s'entén la qualitat de l'aigua com `característiques químiques, físiques, biològiques i radiològiques de l'aigua`, en relació amb necessitats humanes.
 
 La Fundació Aquae \cite{Fundacionaquae} indica que es tracta d'un conjunt de paràmetres, com temperatura, contingut mineral i bacteris, mesurats i comparats amb estàndards, per definir si l'aigua és apta per a fins determinats o no.
 \subsection{Tips de paràmetres per analitzar la qualitat de l'aigua}
@@ -11,36 +11,72 @@ La Fundació Aquae \cite{Fundacionaquae} indica que es tracta d'un conjunt de pa
  \item \textbf{Parametres químics}
  Relacionats amb la composició química de l’aigua; indiquen si és potable o contaminada.
  \begin{enumerate}[a)]
-  \item \textit{pH}: Es un dels paràmetres més importants. El pH mesura cuan acida o cuan alcalina es l'aigua amb la concentració d’ions d’hidrogen (H$^+$).El pH neutre és 7; aigua potable ha d’estar entre 6,5 i 8,5.
-  \item \textit{Duresa}: Està relacionada amb el contingut en dissolució de cations alcalinoterris, principalment calci i magnesi.
-  \item \textit{Nitrats i Nitrits}: El nitrat \(\mathrm{NO_3^-}\) i el nitrit \(\mathrm{NO_2^-}\) són components químics que contenen nitrogen i oxigen, són molt comuns en la naturalesa, l’agricultura i la indústria. Alts nivells poden ser tòxics, especialment per a nadons.
-  \item \textit{Clor (lliure i total)}:El clor es un gas molt reactiu y toxic en la seva forma puta en l'aigua s'utilitza principalment per eliminar bacterias, virus y altres microorganismes. El clor lliure es responsable de la desinfeccio, el clor total, inclou el clor tant el lliure com el combinat. \cite{WikiClor}
-  \item \textit{Metalls pesats}: Un metall pesant és un membre d'un grup d'elements químics no gaire definits que exhibeixen propietats metàl·liques com:
-   \begin{enumerate}
-    \item Metall de transició: Els metalls de transició són aquells elements químics que es troben a la part central del sistema periòdic, en el bloc constant D
-    \item Semimetal: Es caracteritzen per un comportament intermedi entre metalls i no metalls, compartint característiques de tots dos. Com a regla general, i en la majoria dels casos, tendeixen a reaccionar químicament amb els no metàl·lics
-   \end{enumerate}
-   Alguns exemples de metalls pesats son el Ferro (Fe), el Plom (Pb), el Mercuri (Hg) i el Coure (Cu). \cite{WikiMetales}
-  \item \textit{Oxigen dissolt (OD)}: Fonamental per la vida aquàtica; nivells baixos poden indicar contaminació.
+  \item \textit{pH}: Explicació a la secció \ref{subsec:ph}
+  \item \textit{Duresa}: Explicació a la secció  \ref{subsec:duresa}
+  \item \textit{Nitrats i Nitrits}: Explicació a la secció  \ref{subsec:nitratsnitrits}
+  \item \textit{Clor (lliure i total)}: Explicació a la secció  \ref{subsec:clor}
+  \item \textit{Metalls pesats}: Explicació a la secció   \ref{subsec:metallspesats}
  \end{enumerate}
-
  \item \textbf{Parametres físics}
  Mesuren característiques visibles o mesurables sense canviar la composició de l’aigua.
  \begin{enumerate}
-  \item \textit{Temperatura}: Afecta la solubilitat de gasos (com l’oxigen) i l’activitat dels organismes aquàtics.
-  \item \textit{Color}: Pot indicar presència de substàncies dissoltes, com metalls o matèria orgànica.
-  \item \textit{Olor i sabor}: Poden indicar contaminació per matèria orgànica, clor o compostos químics.
+  \item \textit{Temperatura}: Explicat a la secció \ref{subsec:temperatura}
+  \item \textit{Color}: Explicat a la secció \ref{subsec:color}
+  \item \textit{Olor i sabor}: Explicat a la secció \ref{subsec:olorisabor}
  \end{enumerate}
-
-
-
  \item \textbf{Parametres biologics}
  Indiquen la presència de microorganismes que poden ser patògens.
  \begin{enumerate}
-  \item
+  \item \textbf{Coliformes fecals}: Explicat a la secció \ref{subsec:coliformes}
+  \item \textbf{Bacteris totals}: Explicat a la secció \ref{subsec:bacteris}
+  \item \textbf{Algs i protozous}: Explicat a la secció \ref{subsec:algsiprotozous}
+  \item \textbf{Índex biològic}: Explicat a la secció \ref{subsec:indexbiologic}
+
  \end{enumerate}
 
 \end{enumerate}
 
+\section{Explicació dels parametres químics}
+
+\subsection{pH} \label{subsec:ph}
+\subsubsection{Què és el pH?}
+El pH és una mesura que serveix per establir el nivell d’acidesa o alcalinitat d'una dissolució. La `p` ve de `potencial` i l'`H` ve de l’àtom d’hidrogen, per això el pH és el potencial de l’hidrogen.
+
+S'expressa com el logaritme negatiu de base 10 de la concentració de ions d'hidrogen: $ \text{pH} = -\log_{10} [\mathrm{H}^+] $.
+
+A la fórmula la ${H}^+$ és la concentració de ions d'hidrogen en la solució, mesurat en mols per litre (mol/L). $-\log_{10}$ és el logaritme en base 10, el signe negatiu s'utilitza amb l'objectiu que el pH sigui un número positiu. La raó és perquè el logaritme d'un número menor que 1 és negatiu.
+
+D'altra part, el \textbf{pOH} és una mesura de concentració de ions hidroxil ${OH}^-$ en una dissolució. S'expressa com el logaritme negatiu de base 10 de la concentració de ions hidroxil, i a diferència del pH, s'utilitza per mesurar el nivell d’alcalinitat d'una dissolució. Es calcula amb la formula  $ \text{pOH} = -\log_{10} [\mathrm{OH}^-] $.
+\subsubsection{Quina relacio hi ha entre el nivell dacidez y el pH?}
+Les dissolucions àcides tenen una alta quantitat de ions d'hidrogen. Això significa que tenen baixos valors de pH, i per tant, el seu nivell d'acidesa és elevat. Així que una dissolució serà més o menys àcida depenent de la quantitat d'hidrogen que contingui aquesta.
+
+D'altra banda, les dissolucions bàsiques (alcalines) tenen baixes quantitats de ions d'hidrogen. Això vol dir que tenen alts valors de pH, i per tant el seu nivell d'acidesa és baix.
+
+\subsection{Duresa} \label{subsec:duresa}
+
+\subsection{Nitrats i Nitrits} \label{subsec:nitratsnitrits}
+
+\subsection{Clor} \label{subsec:clor}
+
+\subsection{Metalls pesats} \label{subsec:metallspesats}
+
+
+\section{Explicació dels parametres físics}
+
+\subsection{Temperatura} \label{subsec:temperatura}
+
+\subsection{Color} \label{subsec:color}
+
+\subsection{Olor i sabor} \label{subsec:olorisabor}
+
+\section{Explicació dels parametres biologics}
+
+\subsection{Coliformes fecals} \label{subsec:coliformes}
+
+\subsection{Bacteris totals} \label{subsec:bacteris}
+
+\subsection{Algs i protozous} \label{subsec:algsiprotozous}
+
+\subsection{Índex biològic} \label{subsec:indexbiologic}
 
 

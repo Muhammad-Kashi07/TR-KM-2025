@@ -1,33 +1,58 @@
 \chapter{Part pràctica}
 
-{\Large \textbf{Primer experiment}}
-\newline
+\section{Primer experiment}
 
 % Vaig començar a organitzar-me i a buscar el material que hauria d’utilitzar per fer la part pràctica. La meva intenció era llegir una mica i complir un dels objectius que m’havia proposat per a l’estiu. No acostumo a llegir gaire; per això, si llegir per informar-me m’ajudava, ho feia amb molt de gust. Amb l’ajuda del meu tutor, Fernando, vaig trobar unes tires reactives a Amazon que em permetrien analitzar químicament l’aigua. Amb una sola tira es poden mesurar fins a setze paràmetres diferents. Aquestes tires tenien un cost de 19,99 euros. També disposava d’un mesurador digital de pH, cedit per l’institut, que considerava el material més fiable, ja que proporciona una lectura exacta i no un valor aproximat.
 
 Tal i com es fa qualsevol experiment científic, la primera part d'un experiment consisteix en el disseny i l'obtenció del material. El material necessari per elaborar l'experiment és:
 \begin{enumerate}
- \item Tires reactives comprades a Amazon \cite{tiresReactives}. \textbf{Les tires reactives són petits trossets de paper o plàstic impregnats amb substàncies químiques que canvien de color quan entren en contacte amb certs components presents en l’aigua. S’utilitzen per mesurar de manera ràpida i senzilla diferents paràmetres químics, com ara el pH, la duresa, els nitrats o el clor.}
- \begin{figure}[h!]
+ \item
+  Tires reactives comprades a Amazon~\cite{tiresReactives}. \textbf{Les tires reactives són petits trossets de paper o plàstic impregnats amb substàncies químiques que canvien de color quan entren en contacte amb certs components presents en l’aigua. S’utilitzen per mesurar de manera ràpida i senzilla diferents paràmetres químics, com ara el pH, la duresa, els nitrats o el clor.}
+
+  \begin{minipage}[h]{0.45\textwidth}
+  \begin{figure}[H]
+      \centering
+      \includegraphics[width=1\textwidth, angle=270]{./Figures/TIres.png}
+      \caption{Tires Reactives}
+      \label{fig:TiresReactives}
+    \end{figure}
+  \end{minipage}
+  \begin{minipage}[h]{0.45\textwidth}
+    \begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{./Figures/mesurador.png}
+    \caption{Mesurador de pH}
+    \label{fig:fotoMesuradorPH}%%%Els labels han de ser tots diferents.
+    \end{figure}
+  \end{minipage}
+
+%     \begin{figure}[h]
+%     \centering
+%     \includegraphics[width=0.5\textwidth, angle=270]{./Figures/TIres.png}
+%     \caption{Tires Reactives}
+%     \label{fig:TiresReactives}
+%   \end{figure}
+
+\item Un mesurador dgital de pH cedit pel centre.  \textbf{El mesurador de pH és un instrument utilitzat per determinar l’acidesa o alcalinitat d’una mostra d’aigua. Mesura la concentració d’ions d’hidrogen (H$^+$) i proporciona un valor numèric que indica si l’aigua és àcida (pH $<$ 7), neutra (pH = 7) o bàsica (pH $>$ 7).}
+%  \begin{figure}[h!]
+% \centering
+% \includegraphics[width=0.5\textwidth]{./Figures/mesurador.png}
+% \caption{Mesurador de pH}
+% \label{fig:fotoMesuradorPH}%%%Els labels han de ser tots diferents.
+% \end{figure}
+
+\begin{minipage}[h]{0.6\textwidth}
+\item El TetraTest de Nitrit, que també em va facilitar el centre. \textbf{El TetraTest de nitrits és un test químic que permet mesurar la concentració de nitrits (NO$_2^-$) en una mostra d’aigua. Per fer la prova, s’afegeixen unes gotes del reactiu específic a una petita mostra d’aigua, i després d’uns minuts, el color resultant s’ha de comparar amb una escala per determinar la quantitat de nitrits en mg/L.}
+\end{minipage}
+\begin{minipage}[h]{0.35\textwidth}
+\begin{figure}[H]
 \centering
-\includegraphics[width=0.5\textwidth, angle=270]{./Figures/TIres.png}
-\caption{Tires Reactives}
-\label{fig:TiresReactives}
-\end{figure}
- \item Un mesurador dgital de pH cedit pel centre.  \textbf{El mesurador de pH és un instrument utilitzat per determinar l’acidesa o alcalinitat d’una mostra d’aigua. Mesura la concentració d’ions d’hidrogen (H$^+$) i proporciona un valor numèric que indica si l’aigua és àcida (pH $<$ 7), neutra (pH = 7) o bàsica (pH $>$ 7).}
- \begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\textwidth]{./Figures/mesurador.png}
-\caption{Mesurador de pH}
-\label{fig:fotoMesuradorPH}%%%Els labels han de ser tots diferents.
-\end{figure}
- \item El TetraTest de Nitrit, que també em va facilitar el centre. \textbf{El TetraTest de nitrits és un test químic que permet mesurar la concentració de nitrits (NO$_2^-$) en una mostra d’aigua. Per fer la prova, s’afegeixen unes gotes del reactiu específic a una petita mostra d’aigua, i després d’uns minuts, el color resultant s’ha de comparar amb una escala per determinar la quantitat de nitrits en mg/L.}
- \begin{figure}[h!]
-\centering
-\includegraphics[width=0.5\textwidth, angle=270]{./Figures/TetraTest.png}
+\includegraphics[width=1\textwidth, angle=270]{./Figures/TetraTest.png}
 \caption{TetraTest}
 \label{fig:TetraTestdeNitrit}
 \end{figure}
+\end{minipage}
+
  \item Aigua destil·lada per netejar el mesurador. \textbf{AL’aigua destil·lada és aigua que s’ha purificat per evaporació i condensació, eliminant així sals, minerals i altres impureses.}
  \item Un ordinador amb connexió a internet per a comparar les dades obtingudes amb les de la pagina web d'Aigues de Barcelona \cite{qualitatAigua}
  \item Mostres d'aigua. \textbf{En aquest cas, una mostra d'aigua de casa meva.}
@@ -61,20 +86,20 @@ Un cop tot es material ja estava disponible, va començar l'experiment. Tots els
 %%% Revisa els temps verbals
 Abans de començar oficialment amb les mesures, organitzo totes les mostres. L’aigua de l’aixeta la guardo en una ampolla de plàstic degudament etiquetada per no confondre-la amb altres mostres. També col·loco etiquetes a gairebé tot: les tires, segons si s’assecaran amb o sense llum solar i els gots amb les diferents aigües.
 
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
 \includegraphics[width=0.9\textwidth, angle=0]{./Figures/expe.png}
 \caption{Pre-experiment }
 \label{fig:fotoPreExperiment}
-
 \end{figure}
 
 Els passos que vaig seguir van ser els següents: en un got hi vaig posar l’aigua de l’aixeta i en un altre, l’aigua destil·lada. Vaig començar utilitzant les tires d’Amazon, però em vaig adonar que els components químics estaven escrits en anglès, així que vaig haver-los de traduir per saber què estava mesurant i poder anotar-ho a la llibreta.
 
 Després d’assecar la tira durant 60 segons, ja es podien observar els colors que indicaven la presència i concentració de cada compost. Segons la intensitat del color, es podia determinar el valor aproximat. Ara bé, aquest sistema presentava una dificultat: els colors no sempre eren clars ni fàcils de comparar amb la guia de referència, cosa que feia que els resultats fossin sempre aproximats i no totalment precisos.
 
-Primer vaig fer la prova amb les tires exposades a la llum solar. A continuació, vaig repetir l’experiment amb una tira nova, però aquesta vegada sense exposició solar. A continuació, mostro els resultats obtinguts:
-\begin{table}[H]
+Primer vaig fer la prova amb les tires exposades a la llum solar. A continuació, vaig repetir l’experiment amb una tira nova, però aquesta vegada sense exposició solar. A la taula~\cite{tab:comparacio_dades} es mostren els resultats obtinguts:
+
+\begin{table}[p]
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|c|}
@@ -129,7 +154,7 @@ Una possible explicació d’aquesta estabilitat és que el pH de l’aigua no e
 Després de fer la prova amb les tires reactives, procedeixo a repetir-la amb el mesurador digital de pH. El resultat que obtinc és notablement diferent del que indiquen les tires: el valor mesurat és de 7.21 mg/L. Aquesta diferència posa en evidència la limitació de les tires reactives, que només permeten una estimació aproximada, mentre que el mesurador proporciona una dada precisa.
 
 Les dades reals de l’aigua les vaig consultar a la web d’Aigües de Barcelona \cite{qualitatAigua}. Un cop feta la comparació, aquests són els resultats obtinguts amb les dues tires, tant amb exposició solar com sense.
-\begin{table}[H]
+\begin{table}[p]
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|l|c|c|c|p{4.2cm}|}
@@ -174,7 +199,7 @@ Mercuri & 0 & --- & mg/L & No present; correcte. \\
 \label{tab:comparacio_aigua_amb_sol}
 \end{table}
 
-\begin{table}[H]
+\begin{table}[p]
 \centering
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{|l|c|c|c|p{4.2cm}|}
@@ -223,20 +248,25 @@ Com es pot veure en les dues comparacions, les tires reactives han fallat en gai
 % Com es pot veure, les tires no han encertat en alguns dels valors; en d’altres sí. Tot i això, el problema principal ha estat que les tires no mesuren exactament els mateixos paràmetres que apareixen a la web d’Aigües de Barcelona. Per tant, no es pot fer una comparació directa de tots els valors, sinó que ens hem de limitar només als que coincideixen en ambdós casos.
 
 També cal aclarir que hi ha determinats paràmetres que no es tenen en compte en l’aigua potable, i això fa que sigui impossible comparar-los. El que més m’ha sorprès, però, ha estat la comparació següent:
-\begin{table}[h!]
-\centering
-%\resizebox{\textwidth}{!}{%
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} \\
-\hline \hline
-pH & 7.21 & 7,2 \\
-\hline
-\end{tabular}
-%}
-\caption{Comparació entre els valors experimentals i els oficials de l'aigua de l'aixeta (amb el mesurador de pH)}
-\label{tab:comparacio_mesurador_ph1}
+
+\begin{minipage}[h]{1\textwidth}
+  \begin{table}[H]
+  \centering
+  %\resizebox{\textwidth}{!}{%
+  \begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} \\
+  \hline \hline
+  pH & 7.21 & 7,2 \\
+  \hline
+  \end{tabular}
+  %}
+  \caption{Comparació entre els valors experimentals i els oficials de l'aigua de l'aixeta (amb el mesurador de pH)}
+  \label{tab:comparacio_mesurador_ph1}
 \end{table}
+\end{minipage}
+
+\bigskip
 
 Tal com es pot apreciar a la taula~ \ref{tab:comparacio_mesurador_ph1}, el nivell de pH coincideix amb el valor oficial. Aquest resultat reforçar l'ús del mesurador digital, ja que, com he comentat anteriorment, és molt més fiable que qualsevol tira reactiva, i a més, coincideix amb els valors oficials.
 
@@ -254,8 +284,11 @@ Com es pot observar a la figura~ \ref{fig:TetraTestdeNitrit1}, segons el resulta
 Aquí finalitza el meu primer experiment. Els resultat han aportat més preguntes que respostes. A més a més dels resultats, espero que en els propers resultats tot sigui més fàcil des del punt de vista metodològic, és a dir, que el procediment ja es conegut i, per tant serà més rápid i eficient. També espero que els resultats obtinguts amb les tires convergeixin als valors oficials. En cas contrari, caldrà estudiar quins són les possibles causes d'aquestes diferències.
 % Així va ser el meu primer experiment. No puc dir que n’hagi sortit del tot satisfet, ja que he tingut força decepcions, però també algunes alegries. Com que era el primer cop que ho feia, he après dels meus errors, ara sé què he de fer i què no la pròxima vegada, i tot plegat m’ha ajudat a organitzar-me molt millor. Una cosa és imaginar com serà tot i una altra molt diferent és viure-ho. Es podria dir que ha estat com una clatellada de realitat. Però, en el fons, aquesta és la gràcia de l’experimentació.
 
-{\Large \textbf{Segon experiment}}
-\newline
+
+\clearpage
+
+\section{Segon experiment}
+
 
 Després d’obtenir alguns resultats sorprenents en el primer experiment, decideixo fer un segon intent per confirmar si les diferències observades es tornen a repetir. En aquest cas, faig servir una nova mostra i intento mantenir les condicions tan controlades com sigui possible per obtenir dades més fiables.
 
@@ -430,8 +463,7 @@ Finalment, el TetraTest va donar un valor de 0,1 mg/L. Aquest resultat contradiu
 Amb això, finalitzo el segon experiment. Tal com havia previst, ha estat més ràpit que el primer, i espero que el tercer i ùltim, ho sigui encara més.
 \vspace{10cm}
 
-{\Large \textbf{Tercer experiment}}
-\newline
+\section{Tercer experiment}
 
 Finalment, arribo al tercer i últim experiment d’aquest treball de recerca. En aquest cas, igual que en el segon experiment, he volgut fer un petit canvi en la manera d’utilitzar les tires reactives.
 

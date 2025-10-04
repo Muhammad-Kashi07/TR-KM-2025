@@ -103,54 +103,10 @@ Els passos que vaig seguir van ser els següents: en un got hi vaig posar l’ai
 
 Després d’assecar la tira durant 60 segons, ja es podien observar els colors que indicaven la presència i concentració de cada compost. Segons la intensitat del color, es podia determinar el valor aproximat. Ara bé, aquest sistema presentava una dificultat: els colors no sempre eren clars ni fàcils de comparar amb la guia de referència, cosa que feia que els resultats fossin sempre aproximats i no totalment precisos.
 
-Primer vaig fer la prova amb les tires exposades a la llum solar. A continuació, vaig repetir l’experiment amb una tira nova, però aquesta vegada sense exposició solar. A la taula~\cite{tab:comparacio_dades} es mostren els resultats obtinguts:
+Primer vaig fer la prova amb les tires exposades a la llum solar. A continuació, vaig repetir l’experiment amb una tira nova, però aquesta vegada sense exposició solar. Es mostren els resultats obtinguts al \textit{Appendix}~\ref{s:A1}, a la taula \ref{tab:comparacio_dades}~\nameref{tab:comparacio_dades}.
 
-\begin{table}[p]
-\centering
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|c|c|c|}
-\hline
-Paràmetre & Resultats amb llum solar en mg/L & Resultats sense llum solar en mg/L \\
-\hline
-pH    & 6.2      & 6.2 \\
-\hline
-Alcalinitat total(CaCO$_3$)    & 0    & 0 \\
-\hline
-Carbonat     & 0      & 0 \\
-\hline
-Duresa (GH)   & 50          & 175  \\
-\hline
-Àcid cianúric    & 0     & 0 \\
-\hline
-Coure    & 0.2       & 0.1\\
-\hline
-Mercuri    & 0      & 0 \\
-\hline
-Clor total     & 1     & 0.5\\
-\hline
- Clor lliure    & 1      & 0 \\
-\hline
-Brom  & 1      & 0\\
-\hline
- Nitrit    & 0.5       & 0.5\\
-\hline
-Nitrat (NO$_3^-$)    & 10        & 25 \\
-\hline
-Ferro    & 0      & 0.5 \\
-\hline
- Crom (VI)   & 0      & 0  \\
-\hline
-Plom   & 0     & 0  \\
-\hline
-Fluorur (F$^-$)    & 0      & 0 \\
-\hline
-\end{tabular}%
-}
-\caption{Resultats del primer experiment}
-\label{tab:comparacio_dades}
-\end{table}
 
-Tal com es pot veure a la taula~ \ref{tab:comparacio_dades}, en general no hi ha diferències molt grans entre fer la prova amb o sense exposició solar. Tot i així, hi ha alguns casos destacats. Per exemple, la duresa presenta un salt important: 50 mg/L amb llum solar, i 175 mg/L sense. També els nitrats mostren una diferència significativa: 10 mg/L amb sol i 25 mg/L sense. Altres compostos com el ferro o el clor total mostren variacions més lleus, però també notables. En canvi, el clor lliure apareix amb 1 mg/L en la tira exposada al sol, i 0 mg/L en la que no hi ha estat.
+Tal com es pot veure a la taula~ \nameref{tab:comparacio_dades}, en general no hi ha diferències molt grans entre fer la prova amb o sense exposició solar. Tot i així, hi ha alguns casos destacats. Per exemple, la duresa presenta un salt important: 50 mg/L amb llum solar, i 175 mg/L sense. També els nitrats mostren una diferència significativa: 10 mg/L amb sol i 25 mg/L sense. Altres compostos com el ferro o el clor total mostren variacions més lleus, però també notables. En canvi, el clor lliure apareix amb 1 mg/L en la tira exposada al sol, i 0 mg/L en la que no hi ha estat.
 
 Un cas especialment curiós ha estat el del pH, ja que els dos mètodes emprats han coincidit en un valor de 6.2 mg/L. Inicialment pensava que aquest seria un dels valors més variables.
 %%% Aquí pots investigar per si trobes una explicació possible!!!
@@ -160,95 +116,8 @@ Una possible explicació d’aquesta estabilitat és que el pH de l’aigua no e
 Després de fer la prova amb les tires reactives, procedeixo a repetir-la amb el mesurador digital de pH. El resultat que obtinc és notablement diferent del que indiquen les tires: el valor mesurat és de 7.21 mg/L. Aquesta diferència posa en evidència la limitació de les tires reactives, que només permeten una estimació aproximada, mentre que el mesurador proporciona una dada precisa.
 
 Les dades reals de l’aigua les vaig consultar a la web d’Aigües de Barcelona~\cite{qualitatAigua}. Un cop feta la comparació, aquests són els resultats obtinguts amb les dues tires, tant amb exposició solar com sense.
-\begin{table}[p]
-\centering
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|l|c|c|c|p{4.4cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 6,2 & 7.2-8.3 & unitats pH & Inferior al valor oficial; aigua més àcida. \\
-\hline
-Alcalinitat total & 0 & 158-210 & mg CaCO$_3$/L & Valor experimental probablement incorrecte. \\
-\hline
-Carbonats & 0 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 50 & 222-309 & mg GH /L & Molt inferior al valor oficial. \\
-\hline
-Nitrat & 10 & 5.2-11.1 & mg NO$_3^-$ /L & Lleugerament superior; dins de marges acceptables. \\
-\hline
-Nitrit & 0.5 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 1 & --- & mg/L & Valor comú en aigües potables. \\
-\hline
-Clor lliure & 1 & --- & mg/L & Idèntic al valor anterior. \\
-\hline
-Ferro & 0 & --- & mg/L & No detectat; valor desitjable. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el límit inferior. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present, tal com és recomanable. \\
-\hline
-Plom & 0 & --- & mg/L & Absent, com hauria de ser. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant en aigua potable. \\
-\hline
-Coure & 0,2 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 1 & --- & mg/L & No habitual en aigua potable. \\
-\hline
-Mercuri & 0 & --- & mg/L & No present; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficial (amb exposició solar)}
-\label{tab:comparacio_aigua_amb_sol}
-\end{table}
+Les taules es poden veure al \textit{Appendix}~\ref{s:A1}~ ~\nameref{tab:comparacio_aigua_amb_sol} i~\nameref{tab:comparacio_aigua_sense_sol}
 
-\begin{table}[p]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 6,2 & 7.2-8.3 & unitats pH & Inferior al valor oficial; aigua més àcida. \\
-\hline
-Alcalinitat total & 0 & 158-210 & mg CaCO$_3$/L & Valor experimental probablement incorrecte. \\
-\hline
-Carbonats & 0 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 175 & 222-309 & mg GH/L & Millor aproximació al valor real que abans. \\
-\hline
-Nitrat & 25 & 5.2-11.1 & mg NO$_3^-$ /L & Molt lluny al valor oficial. \\
-\hline
-Nitrit & 0.5 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 0,5 & --- & mg/L & Ligerament inferior a la prova amb sol. \\
-\hline
-Clor lliure & 0 & --- & mg/L & Idèntic al total; valor típic. \\
-\hline
-Ferro & 0.5 & --- & mg/L & Ligerament superior al valor amb sol; no hauria de tenir. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el valor esperat. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present. \\
-\hline
-Plom & 0 & --- & mg/L & No detectat; adequat. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant; igual que en la prova anterior. \\
-\hline
-Coure & 0,1 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 0 & --- & mg/L & No detectat en aquest cas. \\
-\hline
-Mercuri & 0 & --- & mg/L & No detectat; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficials (sense exposició solar)}
-\label{tab:comparacio_aigua_sense_sol}
-\end{table}
 
 Com es pot veure en les dues comparacions, les tires reactives han fallat en gairebé tots els casos pel que fa als valors obtinguts. Tot i això, la tira sense exposició solar ha mostrat resultats més propers als valors originals. Per tant, segons aquesta comparació, puc concloure que és millor no exposar la tira a la llum solar. A més, els valors que ens aporten són diferents, per tant, ens hem de limitar només als que coincideixen en ambdós casos.
 % Com es pot veure, les tires no han encertat en alguns dels valors; en d’altres sí. Tot i això, el problema principal ha estat que les tires no mesuren exactament els mateixos paràmetres que apareixen a la web d’Aigües de Barcelona. Per tant, no es pot fer una comparació directa de tots els valors, sinó que ens hem de limitar només als que coincideixen en ambdós casos.
@@ -310,53 +179,9 @@ Aquesta vegada volia extreure les dades d’una manera diferent. Tot i que la di
 L’única diferència respecte al primer experiment és que, en aquest cas, la tira sense exposició solar tampoc rebrà cap mena de llum: faré l’experiment completament a les fosques. En canvi, la tira amb exposició solar estarà sotmesa a una gran cuantitat de llum, utilitzant no només la llum del sol, sinó també la de diverses llanternes, amb l’objectiu d’aconseguir una diferència notable entre les dues tires reactives.
 
 Després de fer totes les proves per extreure les dades, els resultats van ser els següents:
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{
-\begin{tabular}{|c|c|c|}
-\hline
-Paràmetre & Resultats sense llum en mg/L & Resultats amb llum en mg/L \\
-\hline
-pH    & 7.8      & 7.6 \\
-\hline
-Alcalinitat total(CaCO$_3$)    & 40    & 120 \\
-\hline
-Carbonat     & 0     & 80 \\
-\hline
-Duresa (GH)   & 200          & 425  \\
-\hline
-Àcid cianúric    & 0     & 0 \\
-\hline
-Coure    & 0.2       & 0.2\\
-\hline
-Mercuri    & 0      & 0 \\
-\hline
-Clor total     & 0     & 0\\
-\hline
- Clor lliure    & 0      & 0 \\
-\hline
-Brom  & 0      & 0\\
-\hline
- Nitrit    & 0       & 0\\
-\hline
-Nitrat (NO$_3^-$)    & 0        & 0 \\
-\hline
-Ferro    & 0      & 0 \\
-\hline
- Crom (VI)   & 0      & 0  \\
-\hline
-Plom   & 0     & 0  \\
-\hline
-Fluorur (F$^-$)    & 0      & 0 \\
-\hline
-\end{tabular}%
-}
-\caption{Resultats del experiment 2}
+Es mostren els resultats obtinguts al \textit{Appendix}~\ref{s:A1}, a la taula ~\nameref{tab:comparacio_dades2}.
 
-\label{tab:comparacio_dades2}
-\end{table}
-
-Com podem observar a la taula~ \ref{tab:comparacio_dades2}, la majoria de paràmetres no es detecten en aquesta mostra d’aigua. Tot i això, els que sí que hi apareixen presenten una gran diferència entre les dues tires: la que ha estat exposada a la llum i la que no.
+Com podem observar a la taula~ \nameref{tab:comparacio_dades2}, la majoria de paràmetres no es detecten en aquesta mostra d’aigua. Tot i això, els que sí que hi apareixen presenten una gran diferència entre les dues tires: la que ha estat exposada a la llum i la que no.
 
 Els valors que indiquen són força diferents (excepte en els casos dels paràmetres que no són presents a l’aigua). Tots, excepte del pH i el coure, mostren valors inferiors a la tira que no ha estat exposada a cap llum. Pel que fa al pH, sí que hi ha una petita reducció en la mostra amb exposició lumínica.
 
@@ -364,97 +189,9 @@ Aquestes diferêncies en els resultats feia especialment interessant la comparat
 
 Després de consultar les dades oficials al portal d’Aigües de Barcelona~\cite{qualitatAigua}, vaig poder extreure les conclusions següents:
 
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 7.8 & 7,3-8.3 & unitats pH & Dins dels valors minim-màxim.. \\
-\hline
-Alcalinitat total & 40 & 65.3-217 & mg CaCO$_3$/L & Valor experimental probablement incorrecte. \\
-\hline
-Carbonats & 0 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 200 & 75.3-424 & mg GH/L & Millor aproximació al valor real que l'anterior experiment; dins dels valors minim-màxim. \\
-\hline
-Nitrat & 0 & $<$1-10.2 & mg NO$_3^-$ /L & Dins dels valors oficial. \\
-\hline
-Nitrit & 0 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 0 & --- & mg/L & Valor típic \\
-\hline
-Clor lliure & 0 & --- & mg/L & Idèntic al total; valor típic. \\
-\hline
-Ferro & 0 & --- & mg/L & Adequat; no hauria de tenir. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el valor esperat. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present. \\
-\hline
-Plom & 0 & --- & mg/L & No detectat; adequat. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant; igual que en l'experiment anterior. \\
-\hline
-Coure & 0.2 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 0 & --- & mg/L & No detectat en aquest cas. \\
-\hline
-Mercuri & 0 & --- & mg/L & No detectat; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficials de l'aigua del bar (sense exposició a cap font de llum}
-\label{tab:comparacio_aigua_sense_llum}
-\end{table}
+Les taules es poden veure al \textit{Appendix}~\ref{s:A1}~ ~\nameref{tab:comparacio_aigua_sense_llum} i~\nameref{tab:comparacio_aigua_amb_llum}.\\
 
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 7.6 & 7,3-8.3 & unitats pH & Dins dels valors minim-màxim; com l'anterior cas. \\
-\hline
-Alcalinitat total & 120 & 65.3-217 & mg CaCO$_3$/L & Valor experimental dins dels limits. \\
-\hline
-Carbonats & 80 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 425 & 75.3-424 & mg GH/L & Millor aproximació al valor real que abans, però no està dins dels valors minim-màxim; pot ser un petit error de extraccio de dades. \\
-\hline
-Nitrat & 0 & $<$1-10.2 & mg NO$_3^-$ /L & Dins dels valors oficial; com l'anterior cas. \\
-\hline
-Nitrit & 0 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 0 & --- & mg/L & Valor típic \\
-\hline
-Clor lliure   & 0 & --- & mg/L & Idèntic al total; valor típic. \\
-\hline
-Ferro & 0 & --- & mg/L & Adequat; no hauria de tenir. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el valor esperat; com l'anterior cas. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present. \\
-\hline
-Plom & 0 & --- & mg/L & No detectat; adequat. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant; igual que en l'experiment anterior. \\
-\hline
-Coure & 0.2 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 0 & --- & mg/L & No detectat en aquest cas. \\
-\hline
-Mercuri & 0 & --- & mg/L & No detectat; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficials de l'aigua del bar (amb exposició a gran cuantitat de llum}
-\label{tab:comparacio_aigua_amb_llum}
-\end{table}
-
-Tal com podeu veure a les taules~\ref{tab:comparacio_aigua_sense_llum} i~\ref{tab:comparacio_aigua_amb_llum}, la mesura del pH, que en l’experiment anterior no havia coincidit amb cap de les dues tires, en aquest cas es troba dins dels valors esperats. I no només això, sinó que també altres valors, com la duresa total, es van situar dins dels límits en totes dues tires. Per tant, segons aquesta comparació, puc concloure que és millor exposar la tira a una gran quantitat de llum. A més, els valors que ens aporten són diferents, per tant, ens hem de limitar només als que coincideixen en ambdós casos.
+Tal com podeu veure a les taules, la mesura del pH, que en l’experiment anterior no havia coincidit amb cap de les dues tires, en aquest cas es troba dins dels valors esperats. I no només això, sinó que també altres valors, com la duresa total, es van situar dins dels límits en totes dues tires. Per tant, segons aquesta comparació, puc concloure que és millor exposar la tira a una gran quantitat de llum. A més, els valors que ens aporten són diferents, per tant, ens hem de limitar només als que coincideixen en ambdós casos.
 
 És cert que molts paràmetres no els puc comparar per no tenir dades oficials, però, gràcies als que sí que disposo, puc inferir quins dels valors restants podrien ser fiables. Aquesta comparació ajuda a fer-se una idea general de la coherència dels resultats.
 
@@ -480,148 +217,11 @@ En canvi, en el segon cas, deixaré que la tira s’assequi durant 2 minuts, és
 
 Els passos a seguir seran exactament els mateixos que en els experiments anteriors. L’única diferència serà la mostra d’aigua. Aquesta vegada vaig anar a casa d’un amic per recollir una mostra de l’aigua de casa seva, que vaig emmagatzemar en una ampolla de plàstic degudament etiquetada.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.5\textwidth, angle=270]{./Figures/ex3.png}
-\caption{Mostra número 3}
-\label{fig:Mostra3}
-\end{figure}
-Després de fer les proves amb les tires reactives, aquests en van ser els resultats:
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Tira amb durada 5 segons} & \textbf{Tira amb durada 120 segonsl} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 8.4 & 8.4 & unitats pH & No hi ha difèrencia en cap cas. \\
-\hline
-Alcalinitat total & 180 & 240 & mg CaCO$_3$/L & Difèrencia bastant elevada. \\
-\hline
-Carbonats & 180 & 240 & mg/L & Difèrencia bastant elevada. \\
-\hline
-Duresa total & 335 & 425 & mg GH/L & Difèrencia bastant elevada. . \\
-\hline
-Nitrat & 10 & 25 & mg NO$_3^-$ /L & Difèrencia bastant elevada. \\
-\hline
-Nitrit & 0 & 0 & mg /L & Cap difèrencia. \\
-\hline
-Clor total & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Clor lliure & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Ferro & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Fluorur & 0 & 0 & mg F$^-$ /L & Cap difèrencia. \\
-\hline
-Crom (VI) & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Plom & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Àcid cianúric & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Coure & 0.2 & 0.5 & mg/L & Difèrencia de 0,3 mg/L. \\
-\hline
-Brom & 0 & 0 & mg/L & Cap difèrencia. \\
-\hline
-Mercuri & 0 & 0 & mg/L & Cap difèrencia.. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals a l'experiment 3}
-\label{tab:comparacio_dades_3}
-\end{table}
+Es mostren els resultats obtinguts al \textit{Appendix}~\ref{s:A1}, a la taula ~\nameref{tab:comparacio_dades_3}.
 
 Un cop finalitzada l’extracció de dades amb les tires reactives, el següent pas va ser comparar els resultats obtinguts amb els valors oficials disponibles.
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 8.4 & 7,3-8.3 & unitats pH & Supera per poc al valor màxim. \\
-\hline
-Alcalinitat total & 180 & 65.3-217 & mg CaCO$_3$/L & Valor experimental dins dels limits. \\
-\hline
-Carbonats & 180 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 335 & 75.3-424 & mg GH/L & Valor experimental dins dels limits. \\
-\hline
-Nitrat & 10 & $<$1-10.2 & mg NO$_3^-$ /L & Valor experimental dins dels limits. \\
-\hline
-Nitrit & 0 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 0 & --- & mg/L & Valor típic \\
-\hline
-Clor lliure & 0 & --- & mg/L & Idèntic al total; valor típic. \\
-\hline
-Ferro & 0 & --- & mg/L & Adequat; no hauria de tenir. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el valor esperat. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present. \\
-\hline
-Plom & 0 & --- & mg/L & No detectat; adequat. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant; igual que en els experiments anteriors. \\
-\hline
-Coure & 0.2 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 0 & --- & mg/L & No detectat en aquest cas. \\
-\hline
-Mercuri & 0 & --- & mg/L & No detectat; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficials, tira anb durada 5 segons}
-\label{tab:comparacio_aigua_5s}
-\end{table}
 
-\begin{table}[H]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|c|c|c|p{4.2cm}|}
-\hline
-\textbf{Paràmetre} & \textbf{Valor experimental} & \textbf{Valor oficial} & \textbf{Unitats} & \textbf{Comentari} \\
-\hline \hline
-pH & 8.4 & 7,3-8.3 & unitats pH & Supera per poc al valor màxim; com abans. \\
-\hline
-Alcalinitat total & 240 & 65.3-217 & mg CaCO$_3$/L & Valor experimental lluny dels limits. \\
-\hline
-Carbonats & 240 & --- & mg /L & Informació no proporcionada. \\
-\hline
-Duresa total & 425 & 75.3-424 & mg GH/L & Valor experimental fora dels limits per 1 mg/L; ppot ser un error visual de part meva. \\
-\hline
-Nitrat & 25 & $<$1-10.2 & mg NO$_3^-$ /L & Valor experimental lluny dels limits. \\
-\hline
-Nitrit & 0 & ---& mg /L & Informació no proporcionada. \\
-\hline
-Clor total & 0 & --- & mg/L & Valor típic \\
-\hline
-Clor lliure & 0 & --- & mg/L & Idèntic al total; valor típic. \\
-\hline
-Ferro & 0 & --- & mg/L & Adequat; no hauria de tenir. \\
-\hline
-Fluorur & 0 & $<$0,2 & mg F$^-$ /L & Coincideix amb el valor esperat. \\
-\hline
-Crom (VI) & 0 & --- & mg/L & No present. \\
-\hline
-Plom & 0 & --- & mg/L & No detectat; adequat. \\
-\hline
-Àcid cianúric & 0 & --- & mg/L & No rellevant; igual que en els experiments anteriors. \\
-\hline
-Coure & 0.5 & --- & mg/L & Informació no detectada en aquest cas. \\
-\hline
-Brom & 0 & --- & mg/L & No detectat en aquest cas. \\
-\hline
-Mercuri & 0 & --- & mg/L & No detectat; correcte. \\
-\hline
-\end{tabular}%
-}
-\caption{Comparació entre els valors experimentals i els oficials, tira anb durada 120 segons}
-\label{tab:comparacio_aigua_120s}
-\end{table}
+Les taules es poden veure al \textit{Appendix}~\ref{s:A1}~ ~\nameref{tab:comparacio_aigua_5s} i~\nameref{tab:comparacio_aigua_120s}
 
 Amb aquests resultats i la comparativa realitzada, he arribat a la conclusió que la tira amb una durada de només 5 segons proporciona valors més propers als valors oficials. Per tant, aquesta opció sembla ser més fiable que deixar assecar la tira durant 120 segons.
 
@@ -651,7 +251,7 @@ La meva hipòtesi és que el valor real del nitrit és, efectivament, 0,1 mg/L, 
 
 Aquí finalitza la meva part pràctica en la que no nomès he pogut reproduir els resultats que ofereix Aigües de Barcelona, sinó que he pogut estudiar un parell de paràmetres que poden millorar la fiabilitat de les tires reactives.
 
-\section{Resultats de la part practica}
+\section{Resultats de la part practica} \label{s:resultats}
 Després de realitzar els tres experiments amb diferents mostres d’aigua i condicions de mesura, puc afirmar que l’ús de tires reactives presenta certes limitacions, però també ofereix informació rellevant quan es fa servir correctament.
 
 En el primer experiment vaig comprovar que les tires, tot i donar una idea aproximada dels valors, no sempre coincidien amb les dades oficials. Això em va portar a pensar que factors externs podien influir en els resultats. En el segon experiment, introduint la variable de la llum, vaig poder veure que l’exposició a una gran quantitat de llum millorava notablement la coincidència amb els valors oficials, especialment pel que fa a la duresa i l’alcalinitat. Finalment, en el tercer experiment vaig analitzar l’efecte del temps d’espera, i vaig observar que un temps massa llarg provocava desviacions considerables en diversos paràmetres, mentre que una lectura ràpida (als 5 segons) era més fidel a les dades reals.
@@ -684,7 +284,7 @@ Com a usuari de les tires he trobat informacions contradictòries sobre el seu �
     Les tires reactives són útils com a \textbf{indicador general}, però no substitueixen les dades oficials ni els mètodes de laboratori. S’han d’interpretar com una aproximació, especialment en els paràmetres que no mostren una correspondència directa amb les dades oficials.
 \end{enumerate}
 
-Per tal de validar aquesta guia i comprovar que les recomanacions proposades realment funcionen, he dut a terme un total de cinc experiments amb diferents mostres d’aigua i condicions diverses. Els resultats obtinguts en aquests experiments, que es poden consultar detalladament als \textit{Appendix}~\ref{s:A1}. Així doncs, la guia no només té una base teòrica, sinó també experimental, i ofereix un recurs pràctic per a futurs usuaris.
+Per tal de validar aquesta guia i comprovar que les recomanacions proposades realment funcionen, he dut a terme un total de cinc experiments amb diferents mostres d’aigua i condicions diverses. Els resultats obtinguts en aquests experiments, que es poden consultar detalladament als \textit{Appendix}~\ref{s:A2}. Així doncs, la guia no només té una base teòrica, sinó també experimental, i ofereix un recurs pràctic per a futurs usuaris.
 
 
 

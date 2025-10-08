@@ -1,0 +1,80 @@
+\chapter{Ampliament de la metodologia informatica}
+\label{a:metodologia_informatica}
+
+En aquest annex s’aprofundeix en alguns dels aspectes tècnics i conceptuals de la metodologia informàtica emprada durant el desenvolupament del treball de recerca. Tot i que en el capítol~\ref{c:Metodologia} s’ha presentat una visió general, aquí s’ofereix una explicació més detallada de les eines, sistemes i tecnologies utilitzades, amb l’objectiu de documentar de manera completa l’entorn de treball i les decisions tècniques adoptades.
+
+\section{Control de versions i treball col·laboratiu amb Git i GitHub}
+El sistema de control de versions Git~\cite{git} és una eina essencial en la recerca científica moderna, ja que permet mantenir un registre complet de l’evolució d’un projecte. En un entorn col·laboratiu, com el dels grups de recerca, Git garanteix que tots els participants puguin treballar de manera paral·lela sense perdre informació ni sobrescriure canvis.
+
+\subsection{Principis bàsics de Git}
+Git es basa en la idea de tenir un \textit{repositori} que conté tot l’historial del projecte. Cada vegada que es realitza un canvi significatiu, l’usuari pot fer un \textit{commit}, que equival a una instantània del projecte en aquell moment. Aquestes instantànies es poden recuperar, fusionar o revertir en qualsevol moment.
+
+Els elements principals d’un flux de treball amb Git són:
+\begin{itemize}
+  \item \textbf{Repositori local:} ubicat a l’ordinador de cada usuari, on es fan els canvis inicialment.
+  \item \textbf{Repositori remot:} allotjat en un servidor (en aquest cas GitHub), on es centralitzen tots els canvis.
+  \item \textbf{Branques (branches):} permeten treballar en característiques o seccions concretes del projecte sense interferir en la branca principal.
+  \item \textbf{Fusions (merges):} integren els canvis realitzats en branques separades.
+\end{itemize}
+
+\subsection{Ús de GitHub}
+GitHub~\cite{GitHub} ofereix una interfície gràfica i serveis complementaris per gestionar repositoris Git. A més del control de versions, incorpora funcionalitats específiques molt útils per a la recerca:
+\begin{enumerate}
+  \item \textbf{Issues:} permeten gestionar incidències, propostes de millora o preguntes de manera transparent i col·laborativa.
+  \item \textbf{Pull requests:} faciliten la revisió per parells (\textit{peer review}) de codi o documents abans d’incorporar-los a la branca principal.
+  \item \textbf{Wiki i documentació:} cada projecte pot incloure una wiki per documentar processos, metodologies o protocols experimentals.
+  \item \textbf{Accés obert:} els repositoris públics fomenten la ciència oberta i la transferència de coneixement.
+\end{enumerate}
+
+Aquest tipus de sistemes s’estan convertint en un estàndard en la recerca científica, ja que permeten garantir la \textbf{traçabilitat}, la \textbf{reproduïbilitat} i la \textbf{transparència} de la feina feta.
+
+\textbf{Font d'informació:} \cite{A1}, \cite{A2}
+\section{Sistema operatiu: Linux i la distribució Xubuntu}
+En el treball s’ha optat per utilitzar un sistema operatiu basat en Linux, concretament la distribució \textbf{Xubuntu}. Aquesta elecció no és casual, sinó que respon a diversos motius de caràcter tècnic i pràctic.
+
+\subsection{Motivacions per escollir Linux}
+Linux és un sistema de codi obert, desenvolupat col·laborativament per milers de persones i organitzacions d’arreu del món. El seu codi és auditable, modificable i gratuït, cosa que el converteix en una eina ideal per a la recerca.
+
+A diferència de Windows o macOS, Linux permet adaptar completament el sistema a les necessitats específiques del projecte, optimitzant els recursos i eliminant components innecessaris. Això és especialment rellevant quan es treballa amb equips amb recursos limitats o quan cal maximitzar el rendiment del processament de dades.
+
+\subsection{Característiques de Xubuntu}
+Xubuntu és una distribució lleugera d’Ubuntu.  Les seves principals característiques són:
+\begin{itemize}
+  \item \textbf{Eficiència:} requereix pocs recursos de maquinari, fet que la fa ideal per a ordinadors antics o de baixa potència.
+  \item \textbf{Estabilitat:} basada en Ubuntu i Debian, ofereix un sistema fiable i robust.
+  \item \textbf{Compatibilitat:} disposa d’una àmplia compatibilitat amb programari científic i eines de desenvolupament.
+  \item \textbf{Facilitat d’ús:} malgrat la seva potència, és una distribució intuïtiva i fàcil d’aprendre.
+\end{itemize}
+
+Aquesta combinació d’eficiència i estabilitat ha permès treballar amb fluïdesa en totes les fases del projecte, des de la redacció fins a la gestió de dades i l’ús d’eines de codi obert.
+\textbf{Font d'informació:} \cite{A3}
+\section{Eines de processament de text: LaTeX i Kile}
+\subsection{Per què utilitzar LaTeX}
+El sistema LaTeX~\cite{LaTeX} és un llenguatge de composició de documents científics basat en el processador TeX. A diferència dels processadors de text convencionals (com Microsoft Word), LaTeX separa clarament el contingut de la forma, cosa que permet mantenir un estil coherent i professional al llarg de tot el document.
+
+Els seus avantatges principals són:
+\begin{enumerate}
+  \item \textbf{Precisió tipogràfica:} ofereix una qualitat d’impressió molt superior, especialment per a fórmules matemàtiques.
+  \item \textbf{Automatització de referències:} genera índexs, figures, taules i bibliografia de manera automàtica.
+  \item \textbf{Compatibilitat:} és un estàndard en la publicació científica i acadèmica.
+  \item \textbf{Eina multiplataforma:} funciona en tots els sistemes operatius (Linux, macOS, Windows).
+\end{enumerate}
+\textbf{Font d'informació:} \cite{A4}
+\subsection{L’editor Kile}
+Per a l’edició i compilació de documents LaTeX s’ha utilitzat l’editor \textbf{Kile}~\cite{kile}, desenvolupat per la comunitat KDE. Aquest entorn integrat permet una experiència completa: edició, compilació, vista prèvia i gestió de projectes en un sol lloc.
+
+Entre les seves característiques més rellevants:
+\begin{itemize}
+  \item Compilació automàtica amb un sol clic i vista prèvia immediata del document.
+  \item Eina d’autocompletat i inserció de símbols matemàtics.
+  \item Gestió avançada de cites i referències bibliogràfiques.
+  \item Possibilitat d’organitzar el treball en projectes amb múltiples fitxers.
+  \item Navegació ràpida entre capítols i seccions.
+\end{itemize}
+
+L’ús de Kile ha facilitat enormement la tasca de redacció, permetent mantenir una estructura clara i professional, així com un control rigorós sobre la presentació del treball.
+\textbf{Font d'informació:} \cite{A5}
+\section{Reflexió final}
+El conjunt d’eines utilitzades (GitHub, Xubuntu, LaTeX i Kile) forma un entorn completament lliure i obert, que reprodueix l’estructura de treball d’un veritable grup de recerca científic. Aquesta metodologia fomenta la responsabilitat individual, la transparència i la capacitat d’aprenentatge autònom, tres valors essencials en la formació d’un futur investigador.
+
+\textit{\textbf{En conclusió}}, la metodologia informàtica no només ha servit com a mitjà per elaborar aquest treball, sinó també com a eina d’aprenentatge sobre la manera com es fa recerca científica real.
